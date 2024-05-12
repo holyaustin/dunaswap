@@ -1,7 +1,7 @@
 {
     "31337": {
         
-        "RH": {
+        "DUNA": {
             "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
         },
 
@@ -23,7 +23,7 @@
 
     "11155111": {
         
-        "RH": {
+        "DUNA": {
             "address": "0x41899278A28a75b41e0658ae418C8BB81cFeb772"
         },
 
@@ -45,23 +45,23 @@
 
     "4202": {
         
-        "RH": {
-            "address": "0x41899278A28a75b41e0658ae418C8BB81cFeb772"
+        "DUNA": {
+            "address": "0xEbb3113e97eeaA16Dcc2FebD6a1617AB731066AE"
         },
 
         "mETH": {
-            "address": "0xc063eE43E2CF9af6fe3f989D4dB16209B6081909"
+            "address": "0x5E4e5347eB417982375Ef9BDe0B77F4322FCF79F"
         },
 
         "mDAI": {
-            "address": "0x420b36437b5BCF6A0d37D95855f7fDAA91d9BE08"
+            "address": "0x1B7a6536f23a16e198246A3f80Cd646f86856F11"
         },
 
         "exchange": {
-            "address": "0x5436a5DCF3cE9eaCBe1629690Ab46e6688DCC8F5"
+            "address": "0x60cF847C6Ea49009ae290F749451F4CB66CAD0B2"
         },
 
-        "explorerURL": "https://mumbai.polygonscan.com/"
+        "explorerURL": "https://sepolia-blockscout.lisk.com/"
 
     }
 }

@@ -24,7 +24,7 @@ function App() {
     window.ethereum.on('chainChanged', () => {window.location.reload()})
     window.ethereum.on('accountsChanged', async() => {await loadAccount(provider, dispatch)})
     
-    await loadTokens(provider, [config[chainId].RH.address, config[chainId].mETH.address], dispatch)
+    await loadTokens(provider, [config[chainId].DUNA.address, config[chainId].mETH.address], dispatch)
     
     const exchange = loadExchange(provider, config[chainId].exchange.address, dispatch)
 
