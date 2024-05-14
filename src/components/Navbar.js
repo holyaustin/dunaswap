@@ -34,8 +34,8 @@ const Navbar = () => {
         
         <div className='exchange__header--brand flex'>
             
-            <img src={logo} className='logo' alt='RH logo'></img>
-            <h1>RH Token Exchange</h1>
+            <img src={logo} className='logo' alt='logo'></img>
+            <h1 className='text-4xl'>DunaSwap Exchange</h1>
         
         </div>
 
@@ -46,12 +46,14 @@ const Navbar = () => {
             {
                 chainId && 
                 (
-                <select name='networks' id='networks' value={config[chainId]? `0x${chainId.toString(16)}` : `0`} onChange={(e) => networkHandler(e)}>
-                    
-                    <option value='0' disabled>Select Network</option>
-                    {/* <option value='0x7a69'>Localhost</option> */}
-                    <option value='0xaa36a7'>Ethereum Sepolia</option>
-                    <option value='0x13881'>Polygon Mumbai</option>
+                <select style={{ fontSize: 24}} name='networks' id='networks' value={config[chainId]? `0x${chainId.toString(16)}` : `0`} onChange={(e) => networkHandler(e)}>
+                  
+                    <option  value='0' disabled>Select Network</option>
+                            {/* <option value='0x7a69'>Localhost</option> */}
+                            <option style={{ fontSize: 24}}  value='0x106a'>Lisk Sepolia Testnet</option>
+                    <option style={{ fontSize: 24}} value='0xaa36a7'>Ethereum Sepolia Testnet</option>
+                    <option style={{ fontSize: 24}} value='0x186A4'>RollApp X Testnet</option>
+                   
 
                 </select>
                 )

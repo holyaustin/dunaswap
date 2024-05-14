@@ -32,7 +32,7 @@ main {
 /* -- Text -- */
 
 h1 {
-	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-size: clamp(2rem, 2vw, 2.25rem);
 	font-weight: 500;
 }
 
@@ -73,7 +73,7 @@ small {
 	padding-top: 30px;
 	margin: 0 auto;
 
-	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-size: clamp(1.25rem, 2vw, 1.5rem);
 	font-weight: 500;
 }
 
@@ -122,8 +122,9 @@ small {
 /* ------------------------------------------------------ */
 /* Exchange Header */
 
+
 .exchange__header {
-	background: var(--clr-primary);
+	background: var(--clr-neutral);
 	height: 10vh;
 
 	position: relative;

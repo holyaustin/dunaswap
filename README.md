@@ -1,5 +1,5 @@
 # Dunaswap Finance: Decentralized Financial Exchange (DEX)
-Live demo - https://spirispark-dex.on.fleek.co/
+Live demo - https://dunaswap.vercel.app/
 
 Dunaswap deployed to: 0xEbb3113e97eeaA16Dcc2FebD6a1617AB731066AE
 mETH deployed to: 0x5E4e5347eB417982375Ef9BDe0B77F4322FCF79F
